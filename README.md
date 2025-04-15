@@ -17,9 +17,3 @@
 ## 📜 License
 
 This project is open-source and free to use for educational and research purposes.
-
----
-
-Feel free to modify or add your name and contribution notes if you're planning to publish this.
-
-Would you like me to create a badge section or add waveform image support too?
