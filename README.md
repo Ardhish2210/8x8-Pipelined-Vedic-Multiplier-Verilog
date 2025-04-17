@@ -2,7 +2,7 @@
 
 ## High-Performance Implementation Using SQRT Carry Select Adder with Common Boolean Logic (CBL)
 
-This repository contains a sophisticated Verilog implementation of an 8x8 pipelined Vedic multiplier, meticulously optimized using a modular approach with Square Root Carry Select Adder (SQRT CSLA) based on Common Boolean Logic (CBL). The design has been synthesized, implemented, and validated on FPGA hardware using Xilinx Vivado toolchain.
+This repository contains a sophisticated Verilog implementation of an 8x8 pipelined Vedic multiplier, meticulously optimized using a modular approach with Square Root Carry Select Adder (SQRT CSLA) based on Common Boolean Logic (CBL). The design has been synthesized, implemented, and validated on Basys 3 FPGA hardware using Xilinx Vivado toolchain.
 
 ## 🔍 Project Overview
 This research-oriented project explores advanced digital arithmetic through the implementation of an 8x8 pipelined Vedic multiplier with the following key architectural components:
@@ -37,8 +37,9 @@ This research-oriented project explores advanced digital arithmetic through the 
 ## 🛠️ Implementation Specifications
 - **Hardware Description Language**: Verilog HDL
 - **Development Environment**: Xilinx Vivado 2024.2 (Full Suite)
-- **Target FPGA Platform**: Xilinx Kintex-7 (xc7k70tfbv676-1)
-- **Verification Methodology**: Comprehensive functional validation through simulation waveforms and static timing analysis
+- **Target FPGA Platform**: Basys 3 (Artix-7 XC7A35T) and Kintex-7 (xc7k70tfbv676-1)
+- **Physical Implementation**: Successfully deployed and tested on Basys 3 FPGA board
+- **Verification Methodology**: Comprehensive functional validation through simulation waveforms, static timing analysis, and hardware verification
 
 ## ⚠️ Technical Considerations
 The current implementation presents timing optimization opportunities:
@@ -57,9 +58,10 @@ This project demonstrates advanced concepts in:
 - Arithmetic circuit optimization techniques
 - FPGA resource utilization efficiency
 - Systematic integration of modular arithmetic units within complex pipeline structures
+- Real-world hardware validation on Basys 3 FPGA platform
 
 ## 🔑 Keywords
-`Verilog` `FPGA` `VedicMultiplier` `SQRTCSLA` `CommonBooleanLogic` `Pipelining` `DigitalDesign` `RTL` `Vivado` `HardwareDesign` `VLSI`
+`Verilog` `FPGA` `VedicMultiplier` `SQRTCSLA` `CommonBooleanLogic` `Pipelining` `DigitalDesign` `RTL` `Vivado` `Basys3` `HardwareDesign` `VLSI`
 
 ## 📄 License
 This project is open-source and available under the MIT License. Contributions welcome.
