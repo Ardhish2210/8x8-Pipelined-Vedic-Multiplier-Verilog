@@ -18,7 +18,7 @@ This research-oriented project explores advanced digital arithmetic through the 
 - **Architectural Scalability**: Presents an optimal delay-area tradeoff framework that scales efficiently for larger bit-width arithmetic units.
 
 ## 📁 Repository Structure
-    ```
+
     └── 8x8-Pipelined-Vedic-Multiplier-Verilog/
     ├── README.md
     ├── CSLA_CBL_2bit.v       # 2-bit Carry Select Adder (CSLA) module
@@ -32,7 +32,6 @@ This research-oriented project explores advanced digital arithmetic through the 
     ├── vedic_eight_pipeline_tb.v # Testbench for 8x8 Pipelined Vedic Multiplier
     ├── vedic_four.v          # 4-bit Vedic Multiplier
     └── vedic_two.v           # 2-bit Vedic Multiplier
-    ```
 
 ## 🛠️ Implementation Specifications
 - **Hardware Description Language**: Verilog HDL
@@ -62,6 +61,3 @@ This project demonstrates advanced concepts in:
 
 ## 🔑 Keywords
 `Verilog` `FPGA` `VedicMultiplier` `SQRTCSLA` `CommonBooleanLogic` `Pipelining` `DigitalDesign` `RTL` `Vivado` `Basys3` `HardwareDesign` `VLSI`
-
-## 📄 License
-This project is open-source and available under the MIT License. Contributions welcome.
